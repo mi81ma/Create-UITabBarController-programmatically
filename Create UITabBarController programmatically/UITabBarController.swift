@@ -46,11 +46,14 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
 // ******************************************************
 // Create Tab two
         let tabTwo = TabTwoViewController()
+
         let tabTwoBarItem2 = UITabBarItem(
             title: "Tab 2",
-            image: UIImage(named: "defaultImage2.png"),
-            selectedImage: UIImage(named: "selectedImage2.png")
+            image: #imageLiteral(resourceName: "Fill 96"),
+            selectedImage: #imageLiteral(resourceName: "Fill 96")
         )
+
+
 
         tabTwo.tabBarItem = tabTwoBarItem2
 

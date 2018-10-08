@@ -13,7 +13,7 @@ class TabOneViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor(displayP3Red: 0, green: 173, blue: 181, alpha: 1)
         self.title = "Tab 1"
     }
 
