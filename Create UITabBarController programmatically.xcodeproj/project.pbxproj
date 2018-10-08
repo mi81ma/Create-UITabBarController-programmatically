@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		692AC4F1216B3EAB001A4F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC4F0216B3EAB001A4F1A /* AppDelegate.swift */; };
-		692AC4F3216B3EAB001A4F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC4F2216B3EAB001A4F1A /* ViewController.swift */; };
+		692AC4F3216B3EAB001A4F1A /* ViewControllerForTab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC4F2216B3EAB001A4F1A /* ViewControllerForTab1.swift */; };
 		692AC4F6216B3EAB001A4F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692AC4F4216B3EAB001A4F1A /* Main.storyboard */; };
 		692AC4F8216B3EAC001A4F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692AC4F7216B3EAC001A4F1A /* Assets.xcassets */; };
 		692AC4FB216B3EAC001A4F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692AC4F9216B3EAC001A4F1A /* LaunchScreen.storyboard */; };
+		692AC503216B3EE7001A4F1A /* ViewControllerForTab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */; };
+		692AC505216B3F31001A4F1A /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC504216B3F31001A4F1A /* UITabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		692AC4ED216B3EAB001A4F1A /* Create UITabBarController programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Create UITabBarController programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		692AC4F0216B3EAB001A4F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		692AC4F2216B3EAB001A4F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		692AC4F2216B3EAB001A4F1A /* ViewControllerForTab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab1.swift; sourceTree = "<group>"; };
 		692AC4F5216B3EAB001A4F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		692AC4F7216B3EAC001A4F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		692AC4FA216B3EAC001A4F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		692AC4FC216B3EAC001A4F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab2.swift; sourceTree = "<group>"; };
+		692AC504216B3F31001A4F1A /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				692AC4F0216B3EAB001A4F1A /* AppDelegate.swift */,
-				692AC4F2216B3EAB001A4F1A /* ViewController.swift */,
+				692AC504216B3F31001A4F1A /* UITabBarController.swift */,
+				692AC4F2216B3EAB001A4F1A /* ViewControllerForTab1.swift */,
+				692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */,
 				692AC4F4216B3EAB001A4F1A /* Main.storyboard */,
 				692AC4F7216B3EAC001A4F1A /* Assets.xcassets */,
 				692AC4F9216B3EAC001A4F1A /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692AC4F3216B3EAB001A4F1A /* ViewController.swift in Sources */,
+				692AC503216B3EE7001A4F1A /* ViewControllerForTab2.swift in Sources */,
+				692AC505216B3F31001A4F1A /* UITabBarController.swift in Sources */,
+				692AC4F3216B3EAB001A4F1A /* ViewControllerForTab1.swift in Sources */,
 				692AC4F1216B3EAB001A4F1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
