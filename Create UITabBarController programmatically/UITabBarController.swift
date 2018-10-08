@@ -17,21 +17,34 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
 
     }
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Override vieWillAppear
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        // Create Tab one
+
+// ******************************************************
+// Create Tab one
         let tabOne = TabOneViewController()
-        let tabOneBarItem = UITabBarItem(
-            title: "Tab 1",
-            image: UIImage(named: "defaultImage.png"),
-            selectedImage: UIImage(named: "selectedImage.png")
-        )
+
+
+//        let tabOneBarItem = UITabBarItem(
+//            title: "Tab 1",
+//            image: UIImage(named: "defaultImage.png"),
+//            selectedImage: UIImage(named: "selectedImage.png")
+//
+//        )
+
+
+        // represent .favorites Icon
+        let tabOneBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+
 
         tabOne.tabBarItem = tabOneBarItem
 
-
-        // Create Tab two
+// ******************************************************
+// Create Tab two
         let tabTwo = TabTwoViewController()
         let tabTwoBarItem2 = UITabBarItem(
             title: "Tab 2",
@@ -44,9 +57,13 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
 
         self.viewControllers = [tabOne, tabTwo]
     }
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    // UITabBarControllerDelegate method
+// UITabBarControllerDelegate method
+// get the Tab tile in console
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         print("Selected \(viewController.title!)")
     }
+
+
 }
