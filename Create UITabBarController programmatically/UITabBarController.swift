@@ -26,49 +26,40 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
 
 // ******************************************************
 // Create Tab one
-        let tabOne = TabOneViewController()
+        let tabOne = TabOne_ViewController()
 
-
-//        let tabOneBarItem = UITabBarItem(
-//            title: "Tab 1",
-//            image: UIImage(named: "defaultImage.png"),
-//            selectedImage: UIImage(named: "selectedImage.png")
-//
-//        )
-
-
-        // represent .favorites Icon
+        // represent .Icon
         let tabOneBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-
 
         tabOne.tabBarItem = tabOneBarItem
 
+
 // ******************************************************
 // Create Tab two
-        let tabTwo = TabTwoViewController()
+        let tabTwo = TabTwo_ViewController()
 
-        let tabTwoBarItem2 = UITabBarItem(tabBarSystemItem: .contacts, tag: 2)
-
+        // represent .Icon
+        let tabTwoBarItem2 = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
 
         tabTwo.tabBarItem = tabTwoBarItem2
 
 
 // ******************************************************
     // Create Tab three
+        let tabThree = TabThree_ViewController()
 
-        let tabThree = TabThreeViewController()
-
-        let tabTwoBarItem3 = UITabBarItem(tabBarSystemItem: .contacts, tag: 3)
+        // represent .Icon
+        let tabTwoBarItem3 = UITabBarItem(tabBarSystemItem: .history, tag: 3)
 
         tabThree.tabBarItem = tabTwoBarItem3
 
 
 // ******************************************************
    // Create Tab four
+        let tabFour = TabFour_ViewController()
 
-        let tabFour = TabFourViewController()
-
-        let tabTwoBarItem4 = UITabBarItem(tabBarSystemItem: .contacts, tag: 4)
+        // represent .Icon
+        let tabTwoBarItem4 = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 4)
         
         tabFour.tabBarItem = tabTwoBarItem4
 

@@ -8,13 +8,14 @@
 //  Swift 4.2
 
 import UIKit
-class TabOneViewController: UIViewController {
+class TabOne_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor(displayP3Red: 0, green: 168, blue: 181, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 0.4509803922, green: 0.8588235294, blue: 0.768627451, alpha: 1)
         self.title = "Tab 1"
     }
 
 }
+

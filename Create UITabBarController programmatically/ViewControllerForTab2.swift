@@ -8,12 +8,12 @@
 //  Swift 4.2
 
 import UIKit
-class TabTwoViewController: UIViewController {
+class TabTwo_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor(displayP3Red: 119, green: 72, blue: 152, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 0.5450980392, alpha: 1)
         self.title = "Tab 2"
     }
 
