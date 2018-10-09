@@ -13,7 +13,7 @@ class TabTwoViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor(displayP3Red: 248, green: 181, blue: 0, alpha: 1)
+        self.view.backgroundColor = UIColor(displayP3Red: 119, green: 72, blue: 152, alpha: 1)
         self.title = "Tab 2"
     }
 

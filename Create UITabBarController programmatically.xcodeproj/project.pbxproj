@@ -14,6 +14,8 @@
 		692AC503216B3EE7001A4F1A /* ViewControllerForTab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */; };
 		692AC505216B3F31001A4F1A /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AC504216B3F31001A4F1A /* UITabBarController.swift */; };
 		692AC507216B58DE001A4F1A /* AssetCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692AC506216B58DE001A4F1A /* AssetCatalog.xcassets */; };
+		69CE1974216C99BA00917A45 /* ViewControllerForTab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE1973216C99BA00917A45 /* ViewControllerForTab3.swift */; };
+		69CE1976216CA23C00917A45 /* ViewControllerForTab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CE1975216CA23C00917A45 /* ViewControllerForTab4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab2.swift; sourceTree = "<group>"; };
 		692AC504216B3F31001A4F1A /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
 		692AC506216B58DE001A4F1A /* AssetCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetCatalog.xcassets; sourceTree = "<group>"; };
+		69CE1973216C99BA00917A45 /* ViewControllerForTab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab3.swift; sourceTree = "<group>"; };
+		69CE1975216CA23C00917A45 /* ViewControllerForTab4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				692AC504216B3F31001A4F1A /* UITabBarController.swift */,
 				692AC4F2216B3EAB001A4F1A /* ViewControllerForTab1.swift */,
 				692AC502216B3EE7001A4F1A /* ViewControllerForTab2.swift */,
+				69CE1973216C99BA00917A45 /* ViewControllerForTab3.swift */,
+				69CE1975216CA23C00917A45 /* ViewControllerForTab4.swift */,
 				692AC4F4216B3EAB001A4F1A /* Main.storyboard */,
 				692AC4F9216B3EAC001A4F1A /* LaunchScreen.storyboard */,
 				692AC4FC216B3EAC001A4F1A /* Info.plist */,
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				692AC503216B3EE7001A4F1A /* ViewControllerForTab2.swift in Sources */,
+				69CE1976216CA23C00917A45 /* ViewControllerForTab4.swift in Sources */,
 				692AC505216B3F31001A4F1A /* UITabBarController.swift in Sources */,
 				692AC4F3216B3EAB001A4F1A /* ViewControllerForTab1.swift in Sources */,
 				692AC4F1216B3EAB001A4F1A /* AppDelegate.swift in Sources */,
+				69CE1974216C99BA00917A45 /* ViewControllerForTab3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

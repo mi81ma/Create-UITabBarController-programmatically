@@ -1,20 +1,19 @@
 //
-//  ViewController.swift
+//  ViewControllerFor3.swift
 //  Create UITabBarController programmatically
 //
-//  Created by masato on 8/10/2018.
+//  Created by masato on 9/10/2018.
 //  Copyright © 2018 masato. All rights reserved.
 //
-//  Swift 4.2
 
 import UIKit
-class TabOneViewController: UIViewController {
+class TabThreeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor(displayP3Red: 0, green: 168, blue: 181, alpha: 1)
-        self.title = "Tab 1"
+        self.view.backgroundColor = UIColor(displayP3Red: 230, green: 42, blue: 118, alpha: 1)
+        self.title = "Tab 3"
     }
 
 }

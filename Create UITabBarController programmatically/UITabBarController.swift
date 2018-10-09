@@ -47,19 +47,38 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
 // Create Tab two
         let tabTwo = TabTwoViewController()
 
-        let tabTwoBarItem2 = UITabBarItem(
-            title: "Tab 2",
-            image: #imageLiteral(resourceName: "Fill 96"),
-            selectedImage: #imageLiteral(resourceName: "Fill 96")
-        )
-
+        let tabTwoBarItem2 = UITabBarItem(tabBarSystemItem: .contacts, tag: 2)
 
 
         tabTwo.tabBarItem = tabTwoBarItem2
 
 
-        self.viewControllers = [tabOne, tabTwo]
-    }
+// ******************************************************
+    // Create Tab three
+
+        let tabThree = TabThreeViewController()
+
+        let tabTwoBarItem3 = UITabBarItem(tabBarSystemItem: .contacts, tag: 3)
+
+        tabThree.tabBarItem = tabTwoBarItem3
+
+
+// ******************************************************
+   // Create Tab four
+
+        let tabFour = TabFourViewController()
+
+        let tabTwoBarItem4 = UITabBarItem(tabBarSystemItem: .contacts, tag: 4)
+        
+        tabFour.tabBarItem = tabTwoBarItem4
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+    self.viewControllers = [tabOne, tabTwo, tabThree, tabFour]
+}
+
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // UITabBarControllerDelegate method
@@ -67,6 +86,7 @@ class ViewController: UITabBarController, UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         print("Selected \(viewController.title!)")
     }
+
 
 
 }
